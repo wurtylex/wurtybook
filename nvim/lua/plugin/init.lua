@@ -1,0 +1,17 @@
+require('lazy').setup {
+  R 'gitsigns',
+  R 'which-key',
+  R 'search',
+  R 'lsp',
+  R 'autoformat',
+  R 'autocomplete',
+  R 'colorscheme',
+  R 'notes',
+  R 'lualine',
+  R 'treesitter',
+  R 'autopairs',
+  R 'neo-tree',
+  R 'tracker',
+  R 'vimtex',
+  R 'alpha',
+}

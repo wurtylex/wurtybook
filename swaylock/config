@@ -1,0 +1,5 @@
+clock
+indicator
+image=$HOME/.cache/current_wallpaper
+effect-vignette=0.15:0.65
+effect-blur=8x4

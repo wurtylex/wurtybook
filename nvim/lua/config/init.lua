@@ -1,0 +1,5 @@
+R 'globals'
+R 'options'
+R 'maps'
+R 'cmd'
+R 'lazy'

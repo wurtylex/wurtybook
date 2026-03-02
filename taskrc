@@ -33,3 +33,4 @@ urgency.user.project.c_project2.coefficient=3
 urgency.user.project.quick_sidequest.coefficient=5
 urgency.user.project.schoolwork=10
 urgency.age.coefficient=0.0
+urgency.user.tag.parked.coefficient=-10

@@ -4,7 +4,7 @@
   "margin-bottom": -5,
   "spacing": 0,
   "modules-left": [
-    "sway/workspaces",
+    //"niri/workspaces",
     "custom/uptime",
     "cpu"
   ],
@@ -19,10 +19,9 @@
     "backlight",
     "battery"
   ],
-  "sway/workspaces": {
-    "disable-scroll": false,
-    "all-outputs": true,
-    "format": "{name}: {icon}",
+  "niri/workspaces": {
+    "all-outputs": false,
+    "format": "{icon}",
     "format-icons": {
       "active": "",
       "default": ""

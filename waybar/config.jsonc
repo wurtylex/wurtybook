@@ -56,7 +56,7 @@
   },
   "cpu": {
     "interval": 1,
-    "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
+    "format": " {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
     "format-icons": [
       "▁",
       "▂",
@@ -76,11 +76,8 @@
   },
   "custom/uptime": {
     "format": "{}",
-    "format-icon": [
-      ""
-    ],
     "tooltip": false,
-    "interval": 1600,
+    "interval": 60,
     "exec": "$HOME/.config/waybar/scripts/uptime.sh"
   },
   "backlight": {

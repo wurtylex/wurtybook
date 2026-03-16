@@ -47,9 +47,9 @@
     "interval": 1
   },
   "network": {
-    "format-wifi": "󰤢",
-    "format-ethernet": "󰈀 ",
-    "format-disconnected": "󰤠 ",
+    "format-wifi": "󰖩",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "󱚵",
     "interval": 5,
     "tooltip-format": "{essid} ({signalStrength}%)",
     "on-click": "nm-connection-editor"
@@ -67,7 +67,7 @@
       "▇",
       "█"
     ],
-    "on-click": "ghostty -e htop"
+    "on-click": "kitty htop"
   },
   "memory": {
     "interval": 30,

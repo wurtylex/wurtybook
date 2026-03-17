@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 set -qU HYPRSHOT_DIR ~/desktop/screenshots/
-source ~/miniconda3/etc/fish/conf.d/conda.fish
+# source ~/miniconda3/etc/fish/conf.d/conda.fish
 set -x TERMINFO /usr/share/terminfo/
 set -x TERM xterm-256color
 set -x TASKRC ~/.config/taskrc
@@ -22,7 +22,7 @@ abbr -a tadschoolwork "task add project:schoolwork"
 abbr -a tall "task status:pending"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/wurtle/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/home/wurtle/Downloads/google-cloud-sdk/path.fish.inc'; end
+# if [ -f '/home/wurtle/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/home/wurtle/Downloads/google-cloud-sdk/path.fish.inc'; end
 
 # Created by `pipx` on 2026-02-01 19:17:51
 

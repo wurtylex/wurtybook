@@ -399,12 +399,6 @@
       ],
       "rightWidgets": [
         {
-          "id": "memUsage",
-          "enabled": true,
-          "minimumWidth": true,
-          "showSwap": false
-        },
-        {
           "id": "controlCenterButton",
           "enabled": true,
           "showNetworkIcon": false,
@@ -421,6 +415,12 @@
         {
           "id": "notificationButton",
           "enabled": true
+        },
+        {
+          "id": "memUsage",
+          "enabled": true,
+          "minimumWidth": true,
+          "showSwap": false
         },
         {
           "id": "battery",

@@ -1,33 +1,32 @@
 binds {
     // === System & Overview ===
-    Mod+D repeat=false { toggle-overview; }
-    Mod+Tab repeat=false { toggle-overview; }
+    Mod+O repeat=false { toggle-overview; }
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // === Application Launchers ===
-    Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
-    Mod+Space hotkey-overlay-title="Application Launcher" {
+    Mod+Return hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    Mod+R hotkey-overlay-title="Application Launcher" {
         spawn "dms" "ipc" "call" "spotlight" "toggle";
     }
-    Mod+V hotkey-overlay-title="Clipboard Manager" {
-        spawn "dms" "ipc" "call" "clipboard" "toggle";
-    }
+    // Mod+V hotkey-overlay-title="Clipboard Manager" {
+        // spawn "dms" "ipc" "call" "clipboard" "toggle";
+    // }
     Mod+M hotkey-overlay-title="Task Manager" {
         spawn "dms" "ipc" "call" "processlist" "focusOrToggle";
     }
 
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
-    Mod+Comma hotkey-overlay-title="Settings" {
+    Super+P hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
+    Mod+S hotkey-overlay-title="Settings" {
         spawn "dms" "ipc" "call" "settings" "focusOrToggle";
     }
-    Mod+Y hotkey-overlay-title="Browse Wallpapers" {
+    Mod+W hotkey-overlay-title="Browse Wallpapers" {
         spawn "dms" "ipc" "call" "dankdash" "wallpaper";
     }
     Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
 
     // === Security ===
-    Mod+Alt+L hotkey-overlay-title="Lock Screen" {
+    Mod+Escape hotkey-overlay-title="Lock Screen" {
         spawn "dms" "ipc" "call" "lock" "lock";
     }
     Mod+Shift+E { quit; }
@@ -79,9 +78,9 @@ binds {
     Mod+Q repeat=false { close-window; }
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
-    Mod+Shift+T { toggle-window-floating; }
-    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
-    Mod+W { toggle-column-tabbed-display; }
+    Mod+V { toggle-window-floating; }
+    // Mod+Shift+V { switch-focus-between-floating-and-tiling; } // I would use a mouse lmao
+    // Mod+W { toggle-column-tabbed-display; } // I'm realistically not going to use this
     Mod+Shift+W hotkey-overlay-title="Create window rule" { spawn "dms" "ipc" "call" "window-rules" "toggle"; }
 
     // === Focus Navigation ===
@@ -179,15 +178,16 @@ binds {
     Mod+9 { focus-workspace 9; }
 
     // === Move to Numbered Workspaces ===
-    Mod+Shift+1 { move-column-to-workspace 1; }
-    Mod+Shift+2 { move-column-to-workspace 2; }
-    Mod+Shift+3 { move-column-to-workspace 3; }
-    Mod+Shift+4 { move-column-to-workspace 4; }
-    Mod+Shift+5 { move-column-to-workspace 5; }
-    Mod+Shift+6 { move-column-to-workspace 6; }
-    Mod+Shift+7 { move-column-to-workspace 7; }
-    Mod+Shift+8 { move-column-to-workspace 8; }
-    Mod+Shift+9 { move-column-to-workspace 9; }
+    // I rarely have more than like 3 workspaces
+    // Mod+Shift+1 { move-column-to-workspace 1; }
+    // Mod+Shift+2 { move-column-to-workspace 2; }
+    // Mod+Shift+3 { move-column-to-workspace 3; }
+    // Mod+Shift+4 { move-column-to-workspace 4; }
+    // Mod+Shift+5 { move-column-to-workspace 5; }
+    // Mod+Shift+6 { move-column-to-workspace 6; }
+    // Mod+Shift+7 { move-column-to-workspace 7; }
+    // Mod+Shift+8 { move-column-to-workspace 8; }
+    // Mod+Shift+9 { move-column-to-workspace 9; }
 
     // === Column Management ===
     Mod+BracketLeft  { consume-or-expel-window-left; }
@@ -195,10 +195,10 @@ binds {
     Mod+Period { expel-window-from-column; }
 
     // === Sizing & Layout ===
-    Mod+R { switch-preset-column-width; }
-    Mod+Shift+R { switch-preset-window-height; }
-    Mod+Ctrl+R { reset-window-height; }
-    Mod+Ctrl+F { expand-column-to-available-width; }
+    // Mod+R { switch-preset-column-width; }
+    // Mod+Shift+R { switch-preset-window-height; }
+    // Mod+Ctrl+R { reset-window-height; }
+    // Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+C { center-column; }
     Mod+Ctrl+C { center-visible-columns; }
 
@@ -209,13 +209,11 @@ binds {
     Mod+Shift+Equal { set-window-height "+10%"; }
 
     // === Screenshots ===
-    XF86Launch1 { screenshot; }
-    Ctrl+XF86Launch1 { screenshot-screen; }
-    Alt+XF86Launch1 { screenshot-window; }
-    Print { screenshot; }
-    Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Mod+Shift+4 { screenshot; }
+    Mod+Shift+5 { screenshot-screen; }
+    Mod+Shift+3 { screenshot-window; }
+
     // === System Controls ===
-    Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
-    Mod+Shift+P { power-off-monitors; }
+    // Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+    Mod+Shift+P { power-off-monitors; } // what is actualling going on here?
 }

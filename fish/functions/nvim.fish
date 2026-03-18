@@ -15,7 +15,7 @@ function nvim
         command nvim $argv
 
         # kitten @ --to=unix:$socket_path set-spacing padding-left=5 padding-right=5 padding-top=5 padding-bottom=5
-        kitten @ --to=unix:$socket_path set-colors --all --config ~/.cache/wal/colors-kitty.conf
+        kitten @ --to=unix:$socket_path set-colors --all --config ~/.config/kitty/dank-theme.conf
         kitten @ --to=unix:$socket_path set-background-opacity 0.75
     else
         command nvim $argv

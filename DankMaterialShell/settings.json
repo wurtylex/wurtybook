@@ -380,10 +380,7 @@
       "enabled": true,
       "position": 0,
       "screenPreferences": [
-        {
-          "name": "HDMI-A-2",
-          "model": "CR300HD"
-        }
+        "all"
       ],
       "showOnLastDisplay": false,
       "leftWidgets": [

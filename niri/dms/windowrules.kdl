@@ -10,5 +10,23 @@ window-rule {
 // @id=wr_1773886129640629340 @name=discord
 window-rule {
     match app-id="^discord$"
-    open-fullscreen true
+    open-maximized true
+}
+
+// @id=wr_1774287734125146224 @name=obsidian
+window-rule {
+    match app-id="^obsidian$"
+    open-maximized true
+}
+
+// @id=wr_1774474360347255657 @name=com.rtosta.zapzap
+window-rule {
+    match app-id="^com.rtosta.zapzap$"
+    open-maximized true
+}
+
+// @id=wr_1775408962019398294 @name=spotify
+window-rule {
+    match app-id="^spotify$"
+    open-maximized true
 }

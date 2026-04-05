@@ -3,6 +3,7 @@
     "enabled": true
   },
   "wallpaperCarousel": {
-    "enabled": true
+    "enabled": true,
+    "wallpaperDirectory": "/home/wurtle/Pictures/backdrops/normal"
   }
 }

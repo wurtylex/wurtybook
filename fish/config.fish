@@ -27,3 +27,5 @@ abbr -a tall "task status:pending"
 # Created by `pipx` on 2026-02-01 19:17:51
 
 set PATH $PATH /home/wurtle/.local/bin
+
+fish_add_path -a "/home/wurtle/.foundry/bin"

@@ -1,11 +1,11 @@
-autologin.username="314btxepxdbsi3jmr3fxks3nqrlm"
-autologin.saved_credentials="{\"314btxepxdbsi3jmr3fxks3nqrlm\":[\"314btxepxdbsi3jmr3fxks3nqrlm\",\"826nDe7x+vrK/2dnax77Wkect3eRO2pJ3bV9oNZkidlLINrwBTvzsJjH/qmwu/yLkCrmlt7fj7+rV12CjDEh9Ky5OVtWtIgjO8Y7MjM9C32x1Sabq4AFwoDM7qxhtTtq7FaGTYdJ8ZH/qTEKPSh+tmfxSgZVxtjbj+OKzmX+O9GIHfgokONdorkc0VKdQTqZHAbqhbHblY980jNQ2s/JA6K/bcQNk5uPvtoooPHzRt5qRnWrvAukIM6lSlaYn+IdmwquQYnbYZewhSnLU2YImkIBYkSgoTBjhvkGkm8Q191PpONzKpHDgyCM3ghfi1rO\"]}"
-autologin.canonical_username="314btxepxdbsi3jmr3fxks3nqrlm"
 autologin.blob="826nDe7x+vrK/2dnax77Wkect3eRO2pJ3bV9oNZkidlLINrwBTvzsJjH/qmwu/yLkCrmlt7fj7+rV12CjDEh9Ky5OVtWtIgjO8Y7MjM9C32x1Sabq4AFwoDM7qxhtTtq7FaGTYdJ8ZH/qTEKPSh+tmfxSgZVxtjbj+OKzmX+O9GIHfgokONdorkc0VKdQTqZHAbqhbHblY980jNQ2s/JA6K/bcQNk5uPvtoooPHzRt5qRnWrvAukIM6lSlaYn+IdmwquQYnbYZewhSnLU2YImkIBYkSgoTBjhvkGkm8Q191PpONzKpHDgyCM3ghfi1rO"
+autologin.canonical_username="314btxepxdbsi3jmr3fxks3nqrlm"
+autologin.saved_credentials="{\"314btxepxdbsi3jmr3fxks3nqrlm\":[\"314btxepxdbsi3jmr3fxks3nqrlm\",\"826nDe7x+vrK/2dnax77Wkect3eRO2pJ3bV9oNZkidlLINrwBTvzsJjH/qmwu/yLkCrmlt7fj7+rV12CjDEh9Ky5OVtWtIgjO8Y7MjM9C32x1Sabq4AFwoDM7qxhtTtq7FaGTYdJ8ZH/qTEKPSh+tmfxSgZVxtjbj+OKzmX+O9GIHfgokONdorkc0VKdQTqZHAbqhbHblY980jNQ2s/JA6K/bcQNk5uPvtoooPHzRt5qRnWrvAukIM6lSlaYn+IdmwquQYnbYZewhSnLU2YImkIBYkSgoTBjhvkGkm8Q191PpONzKpHDgyCM3ghfi1rO\"]}"
+autologin.username="314btxepxdbsi3jmr3fxks3nqrlm"
 app.window.state.saved=true
 app.window.position.width=1512
 es.send-on-startup=true
-core.clock_delta=0
+core.clock_delta=-1
 storage.last-location="/home/wurtle/.cache/spotify/Storage"
 app.window.position.saved=true
 app.window.position.height=796

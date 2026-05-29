@@ -1,0 +1,35 @@
+[2026-05-28 19:41:28] [dbg] [conf] pre-initializing
+[2026-05-28 19:41:28] [dbg] [conf] cwd: /home/wurtle/Downloads/linux.main
+[2026-05-28 19:41:28] [dbg] [conf] src: /home/wurtle/Downloads/linux.main
+[2026-05-28 19:41:28] [dbg] [conf] storageDir: /home/wurtle/.config/Olympus
+[2026-05-28 19:41:28] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:28] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:28] [dbg] [conf] pre-initialized
+[2026-05-28 19:41:29] [dbg] [main] This is Olympus.Lua version 26.05.03.03-azure-5596-77210
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] starting thread
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] starting subprocess /home/wurtle/Downloads/linux.main/sharp/Olympus.Sharp 23299
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] logging to /home/wurtle/.config/Olympus/log-sharp.txt
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] reading init
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] read init table: 0x7f87983fb710
+[2026-05-28 19:41:29] [dbg] [sharp.thread] [init] startime 1780022489.5062
+[2026-05-28 19:41:29] [dbg] [main] Olympus version was transmitted to sharp: ok
+[2026-05-28 19:41:29] [inf] [main] Connection with Olympus.Sharp is OK!
+[2026-05-28 19:41:29] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:29] [dbg] [main] love2d version 11.5.0.Mysterious Mysteries
+[2026-05-28 19:41:29] [dbg] [main] SDL2 version 2.28.5
+[2026-05-28 19:41:30] [dbg] [finder] steam root /home/wurtle/.local/share/Steam <same>
+[2026-05-28 19:41:30] [dbg] [finder] steam common /home/wurtle/.local/share/Steam/steamapps/common
+[2026-05-28 19:41:30] [dbg] [finder] steam common /home/wurtle/.local/share/Steam/steamapps/common
+[2026-05-28 19:41:30] [dbg] [finder] steam additional library /home/wurtle/.local/share/Steam/steamapps/common
+[2026-05-28 19:41:30] [dbg] [finder] steam install /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:30] [dbg] [finder] steam install /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:30] [dbg] [finder] steam root /home/wurtle/.local/share/Steam <same>
+[2026-05-28 19:41:30] [dbg] [finder] itch db /home/wurtle/.config/itch/db/butler.db false
+[2026-05-28 19:41:30] [dbg] [finder] lutris db /home/wurtle/.local/share/lutris/pga.db false
+[2026-05-28 19:41:30] [dbg] [finder] lutris root /home/wurtle/.config/lutris false
+[2026-05-28 19:41:30] [dbg] [finder] legendary root /home/wurtle/.config/legendary false
+[2026-05-28 19:41:30] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:30] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:30] [inf] [finder] found Celeste.dll root /home/wurtle/.local/share/Steam/steamapps/common/Celeste
+[2026-05-28 19:41:30] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
+[2026-05-28 19:41:31] [dbg] [mainmenu] Latest stable  version found: 6305

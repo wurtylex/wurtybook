@@ -30,3 +30,15 @@ window-rule {
     match app-id="^spotify$"
     open-maximized true
 }
+
+// @id=wr_1779429383351575044 @name=steam
+window-rule {
+    match app-id="^steam$"
+    open-maximized true
+}
+
+// @id=wr_1779473652603234311 @name=love
+window-rule {
+    match app-id="^love$"
+    open-maximized true
+}

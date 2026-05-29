@@ -14,4 +14,5 @@ require('lazy').setup {
   R 'tracker',
   R 'vimtex',
   R 'alpha',
+  R 'lean',
 }

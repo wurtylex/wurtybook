@@ -13,6 +13,7 @@ set -gx INFOPATH /usr/local/texlive/2025/texmf-dist/doc/info $INFOPATH
 
 zoxide init fish | source
 starship init fish | source
+pyenv init - fish | source
 
 abbr -a tadideas "task add project:ideas +parked"
 abbr -a tadrice "task add project:rice +parked"

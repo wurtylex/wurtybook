@@ -42,3 +42,21 @@ window-rule {
     match app-id="^love$"
     open-maximized true
 }
+
+// @id=wr_1780332403088748156 @name=Stardew Valley
+window-rule {
+    match app-id="^Stardew Valley$"
+    open-fullscreen true
+}
+
+// @id=wr_1780541482276952819 @name=steam_app_1701520
+window-rule {
+    match app-id="^steam_app_1701520$"
+    open-fullscreen true
+}
+
+// @id=wr_1780774291654395621 @name=starbound
+window-rule {
+    match app-id="^starbound$"
+    open-fullscreen true
+}

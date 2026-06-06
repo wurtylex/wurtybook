@@ -1,14 +1,4 @@
 {
-  "bg":0,
-  "quality":{
-    "bgSnow":true,
-    "id":"high",
-    "bg":true,
-    "bgBlur":true
-  },
-  "overlay":1,
-  "parallax":1,
-  "mapeditor":"loenn",
   "ahorn":{
     "rootPath":"",
     "vhdPath":"",
@@ -16,26 +6,36 @@
     "theme":"",
     "mode":"local"
   },
-  "csd":false,
+  "updates":"stable",
   "loennRootPath":"/home/wurtle/.config/Olympus/loenn",
   "loennInstalledVersion":"",
   "updateModsOnStartup":"none",
-  "useOpenGL":"disabled",
-  "updates":"stable",
-  "vsync":true,
+  "currentrun":5618,
+  "lastrun":5618,
   "mirrorPreferences":"gb,jade,otobot,wegfan",
-  "language":"en",
-  "apiMirror":false,
-  "imageMirror":"jade",
-  "lastrun":5596,
-  "install":1,
   "installs":[{
       "type":"steam",
-      "name":"steam",
-      "path":"/home/wurtle/.local/share/Steam/steamapps/common/Celeste"
+      "path":"/home/wurtle/.local/share/Steam/steamapps/common/Celeste",
+      "name":"steam"
     }],
-  "currentrun":5596,
-  "extradata":[],
+  "apiMirror":false,
+  "imageMirror":"jade",
   "closeAfterOneClickInstall":"disabled",
-  "theme":"default"
+  "language":"en",
+  "extradata":[],
+  "theme":"default",
+  "bg":0,
+  "quality":{
+    "bg":true,
+    "bgSnow":true,
+    "bgBlur":true,
+    "id":"high"
+  },
+  "useOpenGL":"disabled",
+  "vsync":true,
+  "csd":false,
+  "overlay":1,
+  "parallax":1,
+  "mapeditor":"loenn",
+  "install":1
 }

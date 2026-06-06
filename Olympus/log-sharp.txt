@@ -1,14 +1,25 @@
-[2026-05-28 19:41:29] [inf] [Program] Hey! This is Olympus.Sharp 26.05.03.03-azure-5596-77210, and if you're a modding helper, I'm sorry.
-[2026-05-28 19:41:29] [dbg] [Program] root directory = /home/wurtle/Downloads/linux.main
-[2026-05-28 19:41:29] [inf] [Program] New TCP connection: 127.0.0.1:52258
-[2026-05-28 19:41:29] [dbg] [Program] Executing setolympusversion
-[2026-05-28 19:41:30] [dbg] [Program] Executing getversionstring
-[2026-05-28 19:41:30] [dbg] [Program] Executing getrunningpath
-[2026-05-28 19:41:30] [dbg] [Program] Executing getmodidtocategorymap
-[2026-05-28 19:41:30] [dbg] [CmdGetModIdMap] Cache location set to: /home/wurtle/.config/Olympus/cached-mod-ids-to-categories.json
-[2026-05-28 19:41:30] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from the Internet (apiMirror = False)
-[2026-05-28 19:41:30] [dbg] [Program] Executing getmodidtonamemap
-[2026-05-28 19:41:30] [dbg] [CmdGetModIdMap] Cache location set to: /home/wurtle/.config/Olympus/cached-mod-ids-to-names.json
-[2026-05-28 19:41:30] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from the Internet (apiMirror = False)
-[2026-05-28 19:41:32] [dbg] [Program] Executing launch
-[2026-05-28 19:41:32] [inf] [CmdLaunch] Starting Celeste process: /home/wurtle/.local/share/Steam/steamapps/common/Celeste/Celeste (without args)
+[2026-06-03 18:30:03] [inf] [Program] Hey! This is Olympus.Sharp 26.05.30.01-azure-5618-0f5bc, let's get going!
+[2026-06-03 18:30:03] [dbg] [Program] root directory = /home/wurtle/Downloads/linux.main
+[2026-06-03 18:30:03] [inf] [Program] New TCP connection: 127.0.0.1:35842
+[2026-06-03 18:30:03] [dbg] [Program] Executing setolympusversion
+[2026-06-03 18:30:04] [dbg] [Program] Executing getversionstring
+[2026-06-03 18:30:04] [dbg] [Program] Executing getrunningpath
+[2026-06-03 18:30:04] [dbg] [Program] Executing getmodidtocategorymap
+[2026-06-03 18:30:04] [dbg] [Program] Executing getmodidtonamemap
+[2026-06-03 18:30:04] [dbg] [CmdGetModIdMap] Cache location set to: /home/wurtle/.config/Olympus/cached-mod-ids-to-categories.json
+[2026-06-03 18:30:04] [dbg] [CmdGetModIdMap] Cache location set to: /home/wurtle/.config/Olympus/cached-mod-ids-to-names.json
+[2026-06-03 18:30:04] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from the Internet (apiMirror = False)
+[2026-06-03 18:30:04] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from the Internet (apiMirror = False)
+[2026-06-03 18:30:05] [dbg] [Program] Executing launch
+[2026-06-03 18:30:12] [dbg] [Program] Executing launch
+[2026-06-03 18:30:13] [dbg] [Program] Executing launch
+[2026-06-03 18:30:13] [inf] [CmdLaunch] Starting Celeste process: /home/wurtle/.local/share/Steam/steamapps/common/Celeste/Celeste (without args)
+[2026-06-03 19:12:20] [err] [Program] Failed reading from 127.0.0.1:35842: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[], Int32, Int32)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[], Int32, Int32)
+   at System.IO.StreamReader.ReadBuffer()
+   at Olympus.Program.ReadTerminatedString(TextReader, Char) in /home/vsts/work/1/s/sharp/Program.cs:line 362
+   at Olympus.Program.ReadLoop(Process, MessageContext, StreamReader, Boolean, Char ) in /home/vsts/work/1/s/sharp/Program.cs:line 267
+   at Olympus.Program.<>c__DisplayClass8_1.<Main>b__3() in /home/vsts/work/1/s/sharp/Program.cs:line 185

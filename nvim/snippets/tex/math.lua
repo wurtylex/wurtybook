@@ -108,4 +108,12 @@ return {
     }),
     { condition = tex_utils.in_mathzone }
   ),
+  -- operatorname
+  s(
+    { trig = 'opn', snippetType = 'autosnippet' },
+    fmta('\\operatorname{<>}', {
+      d(1, get_visual),
+    }),
+    { condition = tex_utils.in_mathzone }
+  ),
 }

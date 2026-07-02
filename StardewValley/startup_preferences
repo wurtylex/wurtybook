@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StartupPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <startMuted>true</startMuted>
+  <startMuted>false</startMuted>
   <levelTenFishing>false</levelTenFishing>
   <levelTenMining>false</levelTenMining>
   <levelTenForaging>false</levelTenForaging>
   <levelTenCombat>false</levelTenCombat>
   <skipWindowPreparation>false</skipWindowPreparation>
   <sawAdvancedCharacterCreationIndicator>false</sawAdvancedCharacterCreationIndicator>
-  <timesPlayed>30</timesPlayed>
+  <timesPlayed>125</timesPlayed>
   <windowMode>0</windowMode>
   <displayIndex>0</displayIndex>
   <gamepadMode>Auto</gamepadMode>

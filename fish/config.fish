@@ -30,3 +30,4 @@ abbr -a tall "task status:pending"
 set PATH $PATH /home/wurtle/.local/bin
 
 fish_add_path -a "/home/wurtle/.foundry/bin"
+mise activate fish | source

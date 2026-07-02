@@ -20,6 +20,11 @@ weylus/
 xfce4/
 yay/
 
+# Secrets / credentials — do not commit (see history purge 2026-07-01)
+.wrangler/
+ngrok/
+spotify/
+
 mimeapps.list
 user-dirs.dirs
 user-dirs.locale

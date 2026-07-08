@@ -28,3 +28,30 @@ spotify/
 mimeapps.list
 user-dirs.dirs
 user-dirs.locale
+
+# Runtime logs / backups / lockfiles — auto-generated junk
+fish/functions/tmux-*.log
+fish/config.fish.backup
+Olympus/log.txt
+Olympus/log-sharp.txt
+StardewValley/ErrorLogs/
+zoom/qtsingleapp-*-lockfile
+
+# App state markers / caches — regenerable, not config
+DankMaterialShell/.firstlaunch
+DankMaterialShell/.changelog-*
+Olympus/cached-mod-ids-to-categories.json
+Olympus/cached-mod-ids-to-names.json
+cosmic/com.system76.CosmicTheme.Mode/
+
+# Game state — not dotfiles
+StardewValley/Saves/
+
+# Upstream repo cruft (vendored from source, not our config)
+zathura/.github/
+zathura/INSTALL.md
+zathura/LICENSE
+zathura/README.md
+zathura/screenshot.png
+zathura/lightmode.png
+nvim/.github/

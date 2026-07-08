@@ -11,7 +11,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
-framerate = 60
+; framerate = 60
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -25,9 +25,9 @@ framerate = 60
 
 # The number of bars (0-512). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
-bars = 0
-bar_width = 2
-bar_spacing = 1
+; bars = 0
+; bar_width = 2
+; bar_spacing = 1
 # bar_height is only used for output in "noritake" format
 ; bar_height = 32
 
@@ -256,16 +256,15 @@ bar_spacing = 1
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-# Matched to DankMaterialShell coral/red theme (bottom -> top)
-gradient = 1
-gradient_color_1 = '#68000c'
-gradient_color_2 = '#930015'
-gradient_color_3 = '#c1323a'
-gradient_color_4 = '#e06b60'
-gradient_color_5 = '#ffb3ae'
-gradient_color_6 = '#ffc0a0'
-gradient_color_7 = '#fcb884'
-gradient_color_8 = '#ffd9b3'
+; gradient = 0
+; gradient_color_1 = '#59cc33'
+; gradient_color_2 = '#80cc33'
+; gradient_color_3 = '#a6cc33'
+; gradient_color_4 = '#cccc33'
+; gradient_color_5 = '#cca633'
+; gradient_color_6 = '#cc8033'
+; gradient_color_7 = '#cc5933'
+; gradient_color_8 = '#cc3333'
 
 
 # Horizontal is only supported on noncurses output.
@@ -300,7 +299,7 @@ gradient_color_8 = '#ffd9b3'
 ; integral = 77
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
-monstercat = 1
+; monstercat = 0
 ; waves = 0
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
@@ -316,7 +315,7 @@ monstercat = 1
 # Noise reduction, int 0 - 100. default 77
 # the raw visualization is very noisy, this factor adjusts the integral and gravity filters to keep the signal smooth
 # 100 will be very slow and smooth, 0 will be fast but noisy.
-noise_reduction = 65
+; noise_reduction = 77
 
 
 [eq]

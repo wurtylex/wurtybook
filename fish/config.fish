@@ -31,3 +31,8 @@ set PATH $PATH /home/wurtle/.local/bin
 
 fish_add_path -a "/home/wurtle/.foundry/bin"
 mise activate fish | source
+
+# pulp release notifications
+if status is-interactive; and command -q pulp
+    pulp notify
+end

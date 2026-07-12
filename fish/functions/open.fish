@@ -20,8 +20,14 @@ function open --description 'Open file in default application'
             end
         else if type -q -f xdg-open
             for i in $argv
-                xdg-open $i >/dev/null 2>&1 &
-                disown
+                switch (string lower -- $i)
+                    case '*.pdf' '*.epub'
+                        # skip xdg-open's slow generic path on niri; zathura is
+                        # the xdg default for these anyway
+                        setsid -f zathura -- $i >/dev/null 2>&1
+                    case '*'
+                        setsid -f xdg-open $i >/dev/null 2>&1
+                end
             end
         else
             echo (_ 'No open utility found. Try installing "xdg-open" or "xdg-utils".') >&2

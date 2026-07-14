@@ -61,6 +61,8 @@ return {
   s({ trig = 'tii', snippetType = 'autosnippet' }, fmta('\\textit{<>}', { d(1, get_visual) }), { condition = tex_utils.in_text }),
   -- Bold
   s({ trig = 'tbt', snippetType = 'autosnippet' }, fmta('\\textbf{<>}', { d(1, get_visual) }), { condition = tex_utils.in_text }),
+  -- Small Caps
+  s({ trig = 'tsc', snippetType = 'autosnippet' }, fmta('\\textsc{<>}', { d(1, get_visual) }), { condition = tex_utils.in_text }),
   -- Roman Math
   s({ trig = 'rmm', snippetType = 'autosnippet' }, fmta('\\mathrm{<>}', { d(1, get_visual) }), { condition = tex_utils.in_mathzone }),
   -- Math Calig

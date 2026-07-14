@@ -15,5 +15,12 @@ return {
       'Class .* Warning',
     }
     vim.g.vimtex_quickfix_mode = 0
+
+    vim.api.nvim_create_autocmd('User', {
+      pattern = 'VimtexEventCompileSuccess',
+      callback = function()
+        vim.cmd('VimtexView')
+      end,
+    })
   end,
 }

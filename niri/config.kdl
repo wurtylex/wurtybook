@@ -276,6 +276,13 @@ window-rule {
     match app-id="zoom"
     open-floating true
 }
+// Small floating terminal (Mod+Shift+Return)
+window-rule {
+    match app-id=r#"^kitty-float$"#
+    open-floating true
+    default-column-width { proportion 0.4; }
+    default-window-height { proportion 0.45; }
+}
 // Open dms windows as floating by default
 window-rule {
     match app-id=r#"org.quickshell$"#

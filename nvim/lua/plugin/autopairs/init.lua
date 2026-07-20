@@ -12,7 +12,13 @@ return {
     npairs.setup(opts)
 
     npairs.add_rules {
-      Rule('$', '$', 'tex'):with_pair(ts_conds.is_not_ts_node { 'comment' }),
+      -- also markdown: a closed $ pair is what lets the treesitter mathzone
+      -- detection (util/snippets.lua) see math while typing into it
+      Rule('$', '$', { 'tex', 'markdown' })
+        :with_pair(ts_conds.is_not_ts_node { 'comment' })
+        :with_pair(function()
+          return require('util.snippets').not_md_code()
+        end),
     }
   end,
 }

@@ -14,6 +14,9 @@ return { -- Autocompletion
         require('luasnip').config.set_config {
           enable_autosnippets = true,
         }
+        -- markdown buffers also get the tex snippets; the conditions in
+        -- util/snippets.lua decide per filetype what actually expands
+        require('luasnip').filetype_extend('markdown', { 'tex' })
         require('luasnip.loaders.from_lua').lazy_load {
           paths = vim.fn.stdpath 'config' .. '/snippets',
         }

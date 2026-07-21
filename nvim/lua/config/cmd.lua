@@ -12,9 +12,9 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 vim.api.nvim_create_autocmd('BufReadPost', {
-  desc = 'Restore cursor to last position when reopening a tex file',
+  desc = 'Restore cursor to last position when reopening a tex/lean/markdown file',
   group = vim.api.nvim_create_augroup('restore-cursor', { clear = true }),
-  pattern = { '*.tex', '*.latex', '*.lean' },
+  pattern = { '*.tex', '*.latex', '*.lean', '*.md', '*.markdown' },
   callback = function(args)
     local mark = vim.api.nvim_buf_get_mark(args.buf, '"')
     local line_count = vim.api.nvim_buf_line_count(args.buf)

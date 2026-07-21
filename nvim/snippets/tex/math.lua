@@ -11,7 +11,7 @@ local get_visual = u.get_visual
 return {
   -- subscript
   s(
-    { trig = '([%a%)%]%}]);', regTrig = true, wordTrig = false, snippetType = 'autosnippet' },
+    { trig = '([%w%)%]%}]);', regTrig = true, wordTrig = false, snippetType = 'autosnippet' },
     fmta('<>_{<>}', {
       f(function(_, snip)
         return snip.captures[1]
@@ -22,7 +22,7 @@ return {
   ),
   -- superscript
   s(
-    { trig = '([%a%)%]%}]):', regTrig = true, wordTrig = false, snippetType = 'autosnippet' },
+    { trig = '([%w%)%]%}]):', regTrig = true, wordTrig = false, snippetType = 'autosnippet' },
     fmta('<>^{<>}', {
       f(function(_, snip)
         return snip.captures[1]

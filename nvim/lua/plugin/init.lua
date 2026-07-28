@@ -15,4 +15,5 @@ require('lazy').setup {
   R 'vimtex',
   R 'alpha',
   R 'lean',
+  R 'render-markdown',
 }

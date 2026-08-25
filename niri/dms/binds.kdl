@@ -25,6 +25,9 @@ binds {
     }
     Mod+N hotkey-overlay-title="Notification Center" { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
+    Mod+Shift+G hotkey-overlay-title="Fullscreen Hypno Gif" {
+        spawn "/home/wurtle/.config/niri/scripts/hypno-toggle.sh";
+    }
 
     // === Security ===
     Mod+Escape hotkey-overlay-title="Lock Screen" {
@@ -99,9 +102,7 @@ binds {
     Mod+Shift+Down  { move-window-down; }
     Mod+Shift+Up    { move-window-up; }
     Mod+Shift+Right { move-column-right; }
-    Mod+Shift+H hotkey-overlay-title="Fullscreen Hypno Gif" {
-        spawn "/home/wurtle/.config/niri/scripts/hypno-toggle.sh";
-    }
+    Mod+Shift+H     { move-column-left; }
     Mod+Shift+J     { move-window-down; }
     Mod+Shift+K     { move-window-up; }
     Mod+Shift+L     { move-column-right; }

@@ -36,3 +36,6 @@ mise activate fish | source
 if status is-interactive; and command -q pulp
     pulp notify
 end
+
+# Added by `rbenv init` on Sat Sep 12 10:33:01 PM EDT 2026
+status --is-interactive; and rbenv init - --no-rehash fish | source

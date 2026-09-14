@@ -22,6 +22,7 @@ yay/
 
 # Secrets / credentials — do not commit (see history purge 2026-07-01)
 .wrangler/
+/gh/hosts.yml
 ngrok/
 spotify/
 

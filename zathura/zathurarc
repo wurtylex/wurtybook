@@ -1,3 +1,8 @@
+# Ctrl+left-click jumps to the source in an existing VimTeX session.
+# Also works when the PDF was opened outside Neovim.
+set synctex true
+set synctex-editor-command "nvim --headless -c \"VimtexInverseSearch %{line}:%{column} '%{input}'\""
+
 set window-title-basename "true"
 set selection-clipboard "clipboard"
 

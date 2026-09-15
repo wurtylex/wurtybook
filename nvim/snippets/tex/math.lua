@@ -9,6 +9,14 @@ local u = require 'util.snippets'
 local get_visual = u.get_visual
 
 return {
+  -- set braces
+  s(
+    { trig = 'set', snippetType = 'autosnippet' },
+    fmta('\\{<>\\}', {
+      d(1, get_visual),
+    }),
+    { condition = u.in_mathzone, show_condition = u.in_mathzone }
+  ),
   -- subscript
   s(
     { trig = '([%w%)%]%}]);', regTrig = true, wordTrig = false, snippetType = 'autosnippet' },

@@ -16,4 +16,5 @@ require('lazy').setup {
   R 'alpha',
   R 'lean',
   R 'render-markdown',
+  R 'csv',
 }

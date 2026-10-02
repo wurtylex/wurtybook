@@ -46,6 +46,6 @@ style = "yellow"
 
 [python]
 format = "[$virtualenv]($style) "
-style = "bright-black"
+style = "bold green"
 detect_extensions = []
 detect_files = []
